@@ -1,7 +1,8 @@
 chesse_list = []
 for _ in range(8):
-    chesse = list(input())
-    chesse_list.append(chesse)
+    chesse_list.append(list(input()))
+    # chesse = list(input())
+    # chesse_list.append(chesse)
 
 count = 0
 for x in range(8):
